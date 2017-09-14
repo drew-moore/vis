@@ -78,6 +78,12 @@ var webpackConfig = {
 
   //debug: true,
   //bail: true
+  worker: {
+    path: DIST,
+    output: {
+      filename: "vis.physics.worker.js"
+    }
+  }
 };
 
 var uglifyConfig = {
